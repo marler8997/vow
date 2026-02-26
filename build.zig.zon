@@ -1,0 +1,39 @@
+.{
+    .name = .vow,
+    .fingerprint = 0x83395e074b754166,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .solazy = .{
+            .url = "git+https://github.com/marler8997/solazy#322e8b4520aefc4ab5a16f14d47b386540785153",
+            .hash = "solazy-0.0.1-FbblmVuMAADQWtKsXNP9sz0U-qdgXRlcDMdYT8XjB-3c",
+        },
+        .x11 = .{
+            .url = "git+https://github.com/marler8997/zigx#f9edad5be330c4b121027b5280fb51ffa6af2627",
+            .hash = "x11-0.0.0-yWuw5nDbDACDrm2-E9CABrpq4fWUB9_yplEktanp-iz0",
+        },
+        .vulkan_headers = .{
+            .url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.3.283.tar.gz",
+            .hash = "N-V-__8AAAkkoQGn5z1yoNVrwqZfnYmZp8AZ5CJgoHRMQI0c",
+        },
+        .vulkan = .{
+            .url = "git+https://github.com/Snektron/vulkan-zig#c9c4dae70356766f0954ae7d2b8aba4d1dd53a2a",
+            .hash = "vulkan-0.0.0-r7Ytx6hBAwBUnt0XA-uOkR2hda4fAHFhQITNTgJpnFkY",
+        },
+        .shader_compiler = .{
+            .url = "git+https://codeberg.org/Games-by-Mason/mr_glsl#05c9a0f5a1c5876d37eb3fa1b9447fc08cbfc8bb",
+            .hash = "shader_compiler-1.1.0-bOVsavi_AACYCpLxKfbvG_C83MXAH1zFentAN-_xXRZW",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "examples",
+        "vkext",
+        "vowexe",
+        "vow",
+        "vowproto",
+        "xcb",
+    },
+}
